@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "automace",
+  "version": "${version}",
+  "name": "Auto Mace",
+  "description": "Auto-switches to a mace while falling and attacks the entity under your crosshair.",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.automace.AutoMaceClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
